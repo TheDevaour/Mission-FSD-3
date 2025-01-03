@@ -47,10 +47,10 @@ header{
     font-weight: 400;
     font-size: 16px;
     color: #4A505C;
-    text-align: left;
-    padding: 4px;
-    margin-left: 30px;
-    margin-top: 30px;
+    text-align: left;   
+    margin-left: 5px;
+    margin-top: 31px;
+    padding-left: 30px;
 }
 
 .password {
@@ -90,14 +90,15 @@ span {
 
 h4 {
     display: flex;
+    flex-direction: row;
     color: #4A505C;
-    justify-content:right ;
+    justify-content: right;
     size: 16px;
     font-family: 'DM Sans', sans-serif;
-    align-items: center ;
+    align-items: flex-end   ;
     font-weight: 500;
     letter-spacing: 0.2px;
-    margin-right: 40px;
+    padding-right: 31px;
 }
 
 .btnlogin-btn {
